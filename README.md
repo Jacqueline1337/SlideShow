@@ -182,19 +182,19 @@ body {font-family: Verdana,sans-serif;}
 
 <div class="mySlides fade">
   <div class="numbertext">1 / 3</div>
-  <img src="<a href="http://tinypic.com?ref=w6uwhx" target="_blank"><img src="http://i67.tinypic.com/w6uwhx.jpg" border="0" alt="Image and video hosting by TinyPic"></a>
+  <img src="http://i67.tinypic.com/w6uwhx.jpg" border="0" alt="Image and video hosting by TinyPic"></a>
   <div class="text"></div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">2 / 3</div>
-  <img src="<a href="http://ibb.co/fnpLxF"><img src="http://preview.ibb.co/b33PPv/IMG_2901.jpg" alt="IMG_2901" border="0"></a><br /><a target='_blank' href='http://imgbb.com/'></a><br />
+  <img src="http://preview.ibb.co/b33PPv/IMG_2901.jpg" alt="IMG_2901" border="0"></a><br /><a target='_blank' href='http://imgbb.com/'></a><br />
   <div class="text"></div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">3 / 3</div>
-  <img src="<a href="http://ibb.co/jA2R4v"><img src="http://preview.ibb.co/caocBa/1728697_Anthony_D_Williams_Quote_Knowledge_comes_from_learning_Wisdom.jpg" alt="1728697_Anthony_D_Williams_Quote_Knowledge_comes_from_learning_Wisdom" border="0"></a><br /><a target='_blank' href='http://imgbb.com/'></a><br />
+  <img src="http://preview.ibb.co/caocBa/1728697_Anthony_D_Williams_Quote_Knowledge_comes_from_learning_Wisdom.jpg" alt="1728697_Anthony_D_Williams_Quote_Knowledge_comes_from_learning_Wisdom" border="0"></a><br /><a target='_blank' href='http://imgbb.com/'></a><br />
   <div class="text"></div>
 </div>
 
@@ -225,7 +225,7 @@ function showSlides() {
     }
     slides[slideIndex-1].style.display = "block";  
     dots[slideIndex-1].className += " active";
-    setTimeout(showSlides, 5000); // Change image every 2 seconds
+    setTimeout(showSlides, 5000); 
 }
 </script>
 
