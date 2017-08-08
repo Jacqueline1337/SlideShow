@@ -177,6 +177,7 @@ body {font-family: Verdana,sans-serif;}
    <button class="tablinks" onclick="openDetail(event, 'Studying Abroad')" id="defaultOpen">Studying Abroad</button>
    <button class="tablinks" onclick="openDetail(event, 'Student Discounts')" id="defaultOpen">Student Discounts</button>
    <button class="tablinks" onclick="openDetail(event, 'Road to Success')" id="defaultOpen">Road to Success</button>
+   <button class="tablinks" onclick="openDetail(event, 'References')" id="defaultOpen">References</button>
 </div>
 
 <div class="slideshow-container" img align="middle">
@@ -234,6 +235,35 @@ function showSlides() {
   <span onclick="this.parentElement.style.display='none'" class="topright">x</span>
   <h3> College Hacks</h3>
   <p style="font-family:graduate;">Shortcuts are everywhere to simplify the difficulty of tasks, which is greatly needed for a college student in an environment where everything appears to be intricate.</p>
+    <h4> Never Buy a Textbook Again!</h4>
+    <p> Here are 10 websites where you can get them for free </p>
+  <ul>
+  <li style="font-family:graduate;">TextBookNova.com</li>
+  <li style="font-family:graduate;">eBookee.org</li>
+  <li style="font-family:graduate;">ManyBooks.net</li>
+  <li style="font-family:graduate;">FeedUrBrain.com</li>
+  <li style="font-family:graduate;">AllenG.ru</li>
+  <li style="font-family:graduate;">2020Ok.com</li>
+  <li style="font-family:graduate;">FreeTextBooks.com</li>
+  <li style="font-family:graduate;">Gutenberg.org</li>
+  <li style="font-family:graduate;">Eknigu.com</li>
+  <li style="font-family:graduate;">En.Bookfi.org</li>
+  </ul>
+    <h4> Top 6 Editing Tools for College Students</h4>
+  <ul>
+  <li style="font-family:graduate;"> Grammarly </li>
+  <p style="font-family:graduate;"> Grammarly can spot your usual spelling errors, as well as identify grammar, stylistic, and contextual spelling errors with a detailed explanation to explain your mistake.</p>
+  <li style="font-family:graduate;"> ProWritingAid</li>
+  <p style="font-family:graduate;"> ProWritingAid will help you improve your writing chops when it comes to clarity, sentence length, phrasing, style, and repetition.
+  <li style="font-family:graduate;"> Help.PragTracker </li>
+  <p style="font-family:graduate;"> You can have your paper edited by a professional to make sure your paper is 100% plagiarism-free, as well as contact their helpfull staff through their live chat app.</p>
+  <li style="font-family:graduate;"> The Hemingway Editor </li>
+  <p style="font-family:graduate;"> The Hemingway Editor will help you achieve clarity in your writing by clearing cliches, redundant structures, phrases, adverbs, and more. </p>
+  <li style="font-family:graduate;"> Wordcounter </li>
+  <p style="font-family:graduate;"> Wordcounter keeps track of how many times you have used every word, and ranks them according to frequency of use so that you don't rely too much on some words. </p>
+  <li style="font-family:graduate;"> After the Deadline </li>
+  <p style="font-family:graduate;"> After the Deadline is a Grammarly alternative that will also explain why a word is wrong, and provide an appropriate replacement in about 90% of cases </li>
+  </ul>
 </div>
 
 <div style="background-color:teal;color:white;padding:20px:"id="Study Tips" class="tabcontent">
@@ -262,6 +292,15 @@ function showSlides() {
   essential. Fortunately, there are places such as stores and cafes which provide students with discounts.</p>
 </div>
 
+<div style="background-color:teal;color:white;padding:20px:"id="References" class="tabcontent">
+  <span onclick="this.parentElement.style.display='none'" class="topright">x</span>
+  <h3> References</h3>
+  <ul> 
+  <li style="font-family:graduate;"> studyreadwrite.com </li>
+  <li style="font-family:graduate;"> tun.com </li>
+  </ul>
+</div>
+
 <div style="background-color:teal;color:white;padding:20px:"id="Road to Success" class="tabcontent">
   <span onclick="this.parentElement.style.display='none'" class="topright">x</span>
   <h3> Road to Success</h3>
@@ -271,6 +310,7 @@ function showSlides() {
   <h2>About Us</h2>
   <p style="font-family:graduate;">Hello! We are 3 young girls from a program named Girls Who Code! Here in GWC we learn the basics of JavaScript, C++, HTML, Python, etc. During our final 2 weeks we come together and start brainstorming ideas for our final project. We got placed in groups depending on what we wanted from the options available. Finally we were put into groups and started to work on our final projects. Which has brought us to the creation of this website! While planning what we were going to do for our website we all emphasized the desire to help high school students or anyone interested towards attending college. </p> <p>Creators: Jacqueline Marchan, Julia Devine, Vanesa Marar</p>
 </div> 
+
 
 <script>
 function openDetail(evt, detailName) {
@@ -301,4 +341,7 @@ function googleTranslateElementInit() {
 <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
 </html> 
+
+
+
 
