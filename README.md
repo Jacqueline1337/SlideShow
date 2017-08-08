@@ -1,11 +1,100 @@
 <!DOCTYPE html>
 <html>
 <head>
+<style>
+body {font-family: "Lato", graduate;}
+
+
+/* Style the tab */
+div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: #f1faee;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #a8dadc;
+   
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #457e9d;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+/* Style the close button */
+.topright {
+    float: right;
+    cursor: pointer;
+    font-size: 20px;
+}
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 * {box-sizing:border-box}
 body {font-family: Verdana,sans-serif;}
 .mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
 
 /* Slideshow container */
 .slideshow-container {
@@ -73,29 +162,40 @@ body {font-family: Verdana,sans-serif;}
 }
 </style>
 </head>
+
+
+</style>
+</head>
 <body>
 
-<h2>Automatic Slideshow</h2>
-<p>Change image every 2 seconds:</p>
 
-<div class="slideshow-container">
+<div class="tab">
+  <button class="tablinks" onclick="openDetail(event, 'College Hacks')" id="defaultOpen">College Hacks</button>
+  <button class="tablinks" onclick="openDetail(event, 'Study Tips')">Study Tips</button>
+  <button class="tablinks" onclick="openDetail(event, 'Scholarships')">Scholarships</button>
+   <button class="tablinks" onclick="openDetail(event, 'Studying Abroad')" id="defaultOpen">Studying Abroad</button>
+   <button class="tablinks" onclick="openDetail(event, 'Student Discounts')" id="defaultOpen">Student Discounts</button>
+   <button class="tablinks" onclick="openDetail(event, 'Road to Success')" id="defaultOpen">Road to Success</button>
+</div>
+
+<div class="slideshow-container" img align="middle">
 
 <div class="mySlides fade">
   <div class="numbertext">1 / 3</div>
-  <img src="Quote.jpg" style="width:100%">
-  <div class="text">Caption Text</div>
+  <img src="<a href="http://tinypic.com?ref=w6uwhx" target="_blank"><img src="http://i67.tinypic.com/w6uwhx.jpg" border="0" alt="Image and video hosting by TinyPic"></a>
+  <div class="text"></div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">2 / 3</div>
-  <img src="" style="width:100%">
-  <div class="text">Caption Two</div>
+  <img src="<a href="http://ibb.co/fnpLxF"><img src="http://preview.ibb.co/b33PPv/IMG_2901.jpg" alt="IMG_2901" border="0"></a><br /><a target='_blank' href='http://imgbb.com/'></a><br />
+  <div class="text"></div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">3 / 3</div>
-  <img src="" style="width:100%">
-  <div class="text">Caption Three</div>
+  <img src="<a href="http://ibb.co/jA2R4v"><img src="http://preview.ibb.co/caocBa/1728697_Anthony_D_Williams_Quote_Knowledge_comes_from_learning_Wisdom.jpg" alt="1728697_Anthony_D_Williams_Quote_Knowledge_comes_from_learning_Wisdom" border="0"></a><br /><a target='_blank' href='http://imgbb.com/'></a><br />
+  <div class="text"></div>
 </div>
 
 </div>
@@ -125,9 +225,70 @@ function showSlides() {
     }
     slides[slideIndex-1].style.display = "block";  
     dots[slideIndex-1].className += " active";
-    setTimeout(showSlides, 2000); // Change image every 2 seconds
+    setTimeout(showSlides, 5000); // Change image every 2 seconds
 }
 </script>
 
+<div id="College Hacks" class="tabcontent">
+  <span onclick="this.parentElement.style.display='none'" class="topright">x</span>
+  <p>College Hacks info.</p>
+</div>
+
+<div id="Study Tips" class="tabcontent">
+  <span onclick="this.parentElement.style.display='none'" class="topright">x</span>
+  <p>Study Tips info.</p> 
+</div>
+
+<div id="Scholarships" class="tabcontent">
+  <span onclick="this.parentElement.style.display='none'" class="topright">x</span>
+  <p>Scholarships info.</p>
+</div>
+
+<div id="Studying Abroad" class="tabcontent">
+  <span onclick="this.parentElement.style.display='none'" class="topright">x</span>
+  <p>Studying abroad info.</p>
+</div>
+
+<div id="Student Discounts" class="tabcontent">
+  <span onclick="this.parentElement.style.display='none'" class="topright">x</span>
+  <p>Student Discounts info.</p>
+</div>
+
+<div id="Road to Success" class="tabcontent">
+  <span onclick="this.parentElement.style.display='none'" class="topright">x</span>
+  <p>Road to success info.</p>
+</div>
+<div style="background-color:lightBlue;color:white;padding:20px;">
+  <h2>About Us</h2>
+  <p style="font-family:graduate;">Hello! We are 3 young girls from a program named Girls Who Code! Here in GWC we learn the basics of JavaScript, C++, HTML, Python, etc. During our final 2 weeks we come together and start brainstorming ideas for our final project. We got placed in groups depending on what we wanted from the options available. Finally we were put into groups and started to work on our final projects. Which has brought us to the creation of this website! While planning what we were going to do for our website we all emphasized the desire to help high school students or anyone interested towards attending college. </p> <p>Creators: Jacqueline Marchan, Julia Devine, Vanesa Marar</p>
+</div> 
+
+<script>
+function openDetail(evt, detailName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(detailName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+<div id="google_translate_element"></div>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
 </html> 
