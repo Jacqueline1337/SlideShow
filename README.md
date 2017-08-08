@@ -33,7 +33,7 @@ div.tab button:hover {
 
 /* Create an active/current tablink class */
 div.tab button.active {
-    background-color: # 83BAB0;
+    background-color: #83BAB0;
 }
 
 /* Style the tab content */
@@ -62,6 +62,7 @@ body {font-family: Verdana,sans-serif;}
   max-width: 1000px;
   position: relative;
   margin: auto;
+  background-color: #BF8B85;
 }
 
 /* Caption text */
@@ -266,7 +267,7 @@ function showSlides() {
   <h3> Road to Success</h3>
    <p style="font-family:graduate;">To pursue a life of success and prosperity relies heavily on choices that you make as a student. Getting your habits and motivations in check are prime factors in planning out your future and acquiring it later on.</p>
 </div>
-<div style="background-color:lightBlue;color:white;padding:20px;">
+<div style="background-color:#82B2B1;color:white;padding:20px;">
   <h2>About Us</h2>
   <p style="font-family:graduate;">Hello! We are 3 young girls from a program named Girls Who Code! Here in GWC we learn the basics of JavaScript, C++, HTML, Python, etc. During our final 2 weeks we come together and start brainstorming ideas for our final project. We got placed in groups depending on what we wanted from the options available. Finally we were put into groups and started to work on our final projects. Which has brought us to the creation of this website! While planning what we were going to do for our website we all emphasized the desire to help high school students or anyone interested towards attending college. </p> <p>Creators: Jacqueline Marchan, Julia Devine, Vanesa Marar</p>
 </div> 
@@ -300,3 +301,4 @@ function googleTranslateElementInit() {
 <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
 </html> 
+
