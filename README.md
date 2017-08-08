@@ -167,6 +167,24 @@ body {font-family: Verdana,sans-serif;}
 
 </style>
 </head>
+<head>
+<style>
+div.Title {
+    background-color: teal;
+    color: white;
+    margin: 20px 0 20px 0;
+    padding: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="Title">
+<h2 img align="middle"><font size="18">College Knowledge</font>
+</div> 
+
+</body>
 <body>
 
 
