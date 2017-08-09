@@ -184,6 +184,10 @@ div.Title {
 <h2 img align="middle"><font size="18">College Knowledge</font>
 </div> 
 
+<div class="logo" img align="middle">
+<img src="http://image.ibb.co/gr8i1a/WebLogo.jpg" alt="WebLogo" border="0"></a><br /><a target='_blank' href='http://imgbb.com/'></a><br />
+</div>
+
 </body>
 <body>
 
@@ -195,8 +199,8 @@ div.Title {
    <button class="tablinks" onclick="openDetail(event, 'Studying Abroad')" id="defaultOpen">Studying Abroad</button>
    <button class="tablinks" onclick="openDetail(event, 'Student Discounts')" id="defaultOpen">Student Discounts</button>
    <button class="tablinks" onclick="openDetail(event, 'Road to Success')" id="defaultOpen">Road to Success</button>
-   <button class="tablinks" onclick="openDetail(event, 'References')" id="defaultOpen">References</button>
    <button class="tablinks" onclick="openDetail(event, 'The Creators')" id="defaultOpen">The Creators</button>
+   <button class="tablinks" onclick="openDetail(event, 'References')" id="defaultOpen">References</button>
 </div>
 
 <div class="slideshow-container" img align="middle">
@@ -418,3 +422,4 @@ function googleTranslateElementInit() {
 <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
 </html> 
+
