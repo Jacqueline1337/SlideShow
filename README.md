@@ -196,6 +196,7 @@ div.Title {
    <button class="tablinks" onclick="openDetail(event, 'Student Discounts')" id="defaultOpen">Student Discounts</button>
    <button class="tablinks" onclick="openDetail(event, 'Road to Success')" id="defaultOpen">Road to Success</button>
    <button class="tablinks" onclick="openDetail(event, 'References')" id="defaultOpen">References</button>
+   <button class="tablinks" onclick="openDetail(event, 'The Creators')" id="defaultOpen">The Creators</button>
 </div>
 
 <div class="slideshow-container" img align="middle">
@@ -281,13 +282,14 @@ function showSlides() {
   <p style="font-family:graduate;"> Wordcounter keeps track of how many times you have used every word, and ranks them according to frequency of use so that you don't rely too much on some words. </p>
   <li style="font-family:graduate;"> After the Deadline </li>
   <p style="font-family:graduate;"> After the Deadline is a Grammarly alternative that will also explain why a word is wrong, and provide an appropriate replacement in about 90% of cases </li>
-  </ul>
 </div>
 
 <div style="background-color:teal;color:white;padding:20px:"id="Study Tips" class="tabcontent">
   <span onclick="this.parentElement.style.display='none'" class="topright">x</span>
   <h3> Study Tips</h3>
   <p style="font-family:graduate;">One key to success in college is intertwined with your studying habits, since your grade primarily comes from the assessments you take in class. It is important you find the studying method which is best for you.</p> 
+  <h4> Studying for an exam? </h4>
+    <p style="font-family:graduate;"> Google "site:edu [subject] exam". You'll get a bunch of college exams from the same course. A great way to quiz yourself before your actual exam.</p>
 </div>
 
 <div style="background-color:teal;color:white;padding:20px:"id="Scholarships" class="tabcontent">
@@ -308,6 +310,55 @@ function showSlides() {
   <h3> Student Discounts</h3>
   <p style="font-family:graduate;">As you may know, college is the time when lack of money becomes quite persistent, so saving up becomes quite 
   essential. Fortunately, there are places such as stores and cafes which provide students with discounts.</p>
+  <h4> 14 Restaurants That Do Student Discounts </h4>
+  <ul>
+  <li style="font-family:graduate;"> Subway - 10% off </li>
+  <li style="font-family:graduate;"> Chipotle - Free Drink </li>
+  <li style="font-family:graduate;"> Qdoba - Free Drink </li>
+  <li style="font-family:graduate;"> Burger King - 10% off </li>
+  <li style="font-family:graduate;"> Waffle House - 10% off </li>
+  <li style="font-family:graduate;"> Chick-Fil-A - Free Drink </li>
+  <li style="font-family:graduate;"> Arby's - 10% off </li>
+  <li style="font-family:graduate;"> McDonalds - 10% off </li>
+  <li style="font-family:graduate;"> Buffalo Wild Wing - 10% off </li> 
+  <li style="font-family:graduate;"> Dairy Queen - 10% off </li>
+  <li style="font-family:graduate;"> Domino's - 10% off </li>
+  <li style="font-family:graduate;"> Pizza Hut - 10-20% off </li>
+  <li style="font-family:graduate;"> Papa John's - 10-20% off </li>
+  <li style="font-family:graduate;"> IHOP - 10% off </li>
+  </ul>
+  <h4>  Supplies Stores That Do Student Discounts</h4>
+  <ul>
+  <li style="font-family:graduate;"> FedEx Office - 30% off documents - 20% off with their shipping services </li>
+  <li style="font-family:graduate;"> Amazon - free two-day shipping for 6 months </li>
+  <li style="font-family:graduate;"> Ben Franklin Crafts - Tuesdays, take 10% off </li>
+  <li style="font-family:graduate;"> Jo-Ann Fabric Store - 10% off </li>
+  <li style="font-family:graduate;"> Hancock Fabrics - 10% off </li>
+  <li style="font-family:graduate;"> Discount Dance Supply - 10% off </li>
+  </ul>
+  <h4> Bookstores That Do Student Discounts</h4>
+  <ul>
+  <li style="font-family:graduate;"> Guilford Press - 40% off and free shipping </li>
+  <li style="font-family:graduate;"> The Economist - up to 69% with International Student ID Card </li>
+  <li style="font-family:graduate;"> The New York Times - 99 cents first 4 weeks - 50% off afterwards </li>
+  <li style="font-family:graduate;"> The Wall Street Journal - 75% off regular rates delivery </li>
+  </ul>
+  <h4> Clothing and General Merchandise</h4>
+  <ul>
+  <li style="font-family:graduate;"> Eddie Bauer - depends on location </li>
+  <li style="font-family:graduate;"> Necessary Clothing - 20% off online purchases of $100 </li>
+  <li style="font-family:graduate;"> Sam's Club - discount on membership - savings on college essentials </li>
+  <li style="font-family:graduate;"> J.Crew - 15% off </li>
+  <li style="font-family:graduate;"> Oasis - 20% off </li>
+  <li style="font-family:graduate;"> Toms - free shipping - donates pair to child in need for every pair bought </li>
+  <li style="font-family:graduate;"> Banana Republic - %15 off </li>
+  <li style="font-family:graduate;"> Asos - free shipping </li>
+  <li style="font-family:graduate;"> Eastern Mountain Sports - up to 20% off </li>
+  <li style="font-family:graduate;"> Ralph Lauren Rugby - 15% off </li>
+  <li style="font-family:graduate;"> CollegeBudget - major discounts on clothing, electronics, paintballing </li>
+  <li style="font-family:graduate;"> Charlotte Russe - 10% off </li>
+  <li style="font-family:graduate;"> Sally Beauty Supply - monthly specials and email offers </li>
+  <li style="font-family:graduate;">
 </div>
 
 <div style="background-color:teal;color:white;padding:20px:"id="References" class="tabcontent">
@@ -316,7 +367,14 @@ function showSlides() {
   <ul> 
   <li style="font-family:graduate;"> studyreadwrite.com </li>
   <li style="font-family:graduate;"> tun.com </li>
+  <li style="font-family:graduate;"> 1000lifehacks.com </li>
   </ul>
+</div>
+
+<div style="background-color:teal;color:white;padding:20px:"id="The Creators" class="tabcontent">
+   <span onclick="this.parentElement.style.display='none'" class="topright">x</span>
+   <h3> The Creators</h3>
+   <p style="font-family:graduate;"> Here is a little synopsis of each of the authors of this website.</p>
 </div>
 
 <div style="background-color:teal;color:white;padding:20px:"id="Road to Success" class="tabcontent">
