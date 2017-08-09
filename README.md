@@ -183,11 +183,14 @@ div.Title {
 <div class="Title">
 <h2 img align="middle"><font size="18">College Knowledge</font>
 </div> 
-
+<div style="background-color:#a8dadc;
 <div class="logo" img align="middle">
-<img src="http://image.ibb.co/gr8i1a/WebLogo.jpg" alt="WebLogo" border="0"></a><br /><a target='_blank' href='http://imgbb.com/'></a><br />
 </div>
-
+<div>
+<div style="background-color:#a8dadc;
+<div class="logo" img align="middle">
+<img src="http://image.ibb.co/nc92Uv/Final_Final_Logo.jpg" alt="Final_Final_Logo" border="0"></a><br /><a target='_blank' href='http://imgbb.com/'></a><br />
+</div>
 </body>
 <body>
 
@@ -378,7 +381,53 @@ function showSlides() {
 <div style="background-color:teal;color:white;padding:20px:"id="The Creators" class="tabcontent">
    <span onclick="this.parentElement.style.display='none'" class="topright">x</span>
    <h3> The Creators</h3>
-   <p style="font-family:graduate;"> Here is a little synopsis of each of the authors of this website.</p>
+   <p style="font-family:graduate;"> 
+   
+<body>
+
+<br>
+
+<div class="row">
+  <div class="column" <div style="background-color: #FFFFOO; style="width:100%">
+    <div class="card">
+      <img src= alt="Vanesa" style="width:100%">
+      <div class="container">
+        <h2>Vanesa Marar</h2>
+        <p class="title">Co-Founder</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>example@example.com</p>  
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column" <div style="background-color: #B9D9BD; style="width:100%">
+    <div class="card" >
+	   <img src= alt="Jacqueline" style="width:100%">
+      <div class="container">
+        <h2>Jacqueline Marchan</h2>
+        <p class="title">Co-Founder</p>
+        <p>I am 16 and I like creating websites!</p>
+        <p>marchjac000@auburnsd.org</p>  
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src= alt="Julia" style="width:100%">
+      <div class="container">
+        <h2>Julia Devine</h2>
+        <p class="title">Co-Founder</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>example@example.com</p> 
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
 </div>
 
 <div style="background-color:teal;color:white;padding:20px:"id="Road to Success" class="tabcontent">
@@ -387,7 +436,7 @@ function showSlides() {
    <p style="font-family:graduate;">To pursue a life of success and prosperity relies heavily on choices that you make as a student. Getting your habits and motivations in check are prime factors in planning out your future and acquiring it later on.</p>
 </div>
 <div style="background-color:#82B2B1;color:white;padding:20px;">
-  <h2>About Us</h2>
+  <h2 align="middle">About Us</h2>
   <p style="font-family:graduate;">Hello! We are 3 young girls from a program named Girls Who Code! Here in GWC we learn the basics of JavaScript, C++, HTML, Python, etc. During our final 2 weeks we come together and start brainstorming ideas for our final project. We got placed in groups depending on what we wanted from the options available. Finally we were put into groups and started to work on our final projects. Which has brought us to the creation of this website! While planning what we were going to do for our website we all emphasized the desire to help high school students or anyone interested towards attending college. </p> 
   <p style="font-family:graduate;">Creators: Jacqueline Marchan, Julia Devine, Vanesa Marar</p>
 </div> 
