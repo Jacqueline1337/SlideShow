@@ -624,52 +624,7 @@ function showSlides() {
    <p style="font-family:graduate;"> Here is a little synopsis of each of the authors of this website.</p>
 </div>
    
-<body>
 
-<br>
-
-<div class="row">
-  <div class="column" <div style="background-color: #FFFFOO; style="width:100%">
-    <div class="card">
-      <img src= alt="Vanesa" style="width:100%">
-      <div class="container">
-        <h2>Vanesa Marar</h2>
-        <p class="title">Co-Founder</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>example@example.com</p>  
-        <p><button class="button">Contact</button></p>
-      </div>
-    </div>
-  </div>
-
-  <div class="column" <div style="background-color: #B9D9BD; style="width:100%">
-    <div class="card" >
-	   <img src= alt="Jacqueline" style="width:100%">
-      <div class="container">
-        <h2>Jacqueline Marchan</h2>
-        <p class="title">Co-Founder</p>
-        <p>I am 16 and I like creating websites!</p>
-        <p>marchjac000@auburnsd.org</p>  
-        <p><button class="button">Contact</button></p>
-      </div>
-    </div>
-  </div>
-  <div class="column">
-    <div class="card">
-      <img src= alt="Julia" style="width:100%">
-      <div class="container">
-        <h2>Julia Devine</h2>
-        <p class="title">Co-Founder</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>example@example.com</p> 
-        <p><button class="button">Contact</button></p>
-      </div>
-    </div>
-  </div>
-</div>
-
-</body>
-</div>
 
 <div style="background-color:#82B2B1;color:white;padding:20px;">
   <h2 align="middle">About Us</h2>
