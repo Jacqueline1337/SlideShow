@@ -184,7 +184,7 @@ body {font-family: Verdana,sans-serif;}
 <head>
 <style>
 div.Title {
-    background-color: teal;
+    background-color: rgb(3,4,43);
     color: white;
     margin: 20px 0 20px 0;
     padding: 20px;
@@ -194,7 +194,7 @@ div.Title {
 
 <body>
 
-<div class="Title">
+<div style="font-family:graduate;color:rgb(241,250,238);"class="Title">
 <h2 img align="middle"><font size="18">College Knowledge</font>
 </div> 
 <div style="background-color:#a8dadc;
@@ -274,7 +274,7 @@ function showSlides() {
 <div style="background-color:teal;color:white;padding:20px:"id="College Hacks" class="tabcontent">
   <span onclick="this.parentElement.style.display='none'" class="topright">x</span>
    <h3 style="font-family:Graduate;"> College Hacks</h3>
-  <p style="font-family:graduate;">Shortcuts are everywhere to simplify the difficulty of tasks, which is greatly needed for a college student in an environment where everything appears to be intricate.</p>
+  <p style="font-family:avenir;">Shortcuts are everywhere to simplify the difficulty of tasks, which is greatly needed for a college student in an environment where everything appears to be intricate.</p>
    <h4 style="font-family:raleway;"> Never Buy a Textbook Again!</h4>
     <p style="font-family:avenir;"> Here are 10 websites where you can get them for free </p>
   <ul>
@@ -325,6 +325,7 @@ function showSlides() {
   <li style="font-family:avenir;"> Be stealthy and fill up empty containers in cafeteria </li>
   <li style="font-family:avenir;"> 'File' your T-shirts </li>
   <li style="font-family:avenir;"> Download SelfControl app to help with study time </li>
+  <li style="font-family:avenir;"> When taking notes in class, leave a few pages in the front for a table of contents. This will make it 100 times easier at the end of the year to study from once you have a full notebook </li>
   </ul>
   <h4 style="font-family:raleway;"> Fun Facts! </h4>
   <ul>
@@ -334,6 +335,8 @@ function showSlides() {
   <li style="font-family:avenir;"> It is literally impossible for our brains to multitask </li>
   <li style="font-family:avenir;"> Naps improve your brain's day to day performance </li>
   <li style="font-family:avenir;"> Introversion and Extroversion come from different wiring in the brain </li>
+  <li style="font-family:avenir;"> You are 50% more likely to remember something if you speak it out loud instead of simply reading it over and over </li>
+  <li style="font-family:avenir;"> June 6th is National Doughnut Day at Krispy Kreme, you can get a free donut no purchase necessary </li> 
   </ul>
  <h4 style="font-family:raleway;"> Life Hacks that could still be incorporated in your college life! </h4>
   <ul> 
@@ -351,6 +354,12 @@ function showSlides() {
   <p style="font-family:avenir;"> Press a hot spoon onto the spot. The heat will destroy the reaction and the itching will stop </p>
   <li style="font-family:avenir;"> Trying to download a Youtube video? </li>
   <p style="font-family:avenir;"> If you want to download a Youtube video, just add "ss" to the URL between www. and Youtube </p>
+  <li style="font-family:avenir;"> Want to make your essay longer? </li>
+  <p style="font-family:avenir;"> Hit CTRL + F, search for "." and change the font size of the periods from 12 to 14. They look the exact same, but will make your paper significantly longer! </p>
+  <li style="font-family:avenir;"> Paper due? Low on black ink? </li>
+  <p style="font-family:avenir;"> Change font color to dark Tan. It looks almost indistinguishable to black </p>
+  <li style="font-family:avenir;"> Need to focus better in a public setting? </li>
+  <p style="font-family:avenir;"> On SimplyNoise.com you can play a selection of white noise that have been scientifically developed to increase your concentration and focus </p>
   </ul>
   <h4 style="font-family:raleway;"> 7 Brilliant Ways to Start Any Presentation </h4>
   <ul>
@@ -368,6 +377,14 @@ function showSlides() {
   <p style="font-family:avenir;"> A prop is a magnetic tool that hooks your audience and keeps them watching or listening. A visual aid can help emphasize a point, Price says </p>
   <li style="font-family:avenir;"> Play a Short Video </li>
   <p style="font-family:avenir;"> Unlike text and bullet points on a slide, videos evoke emotional responses. They allow you to reel in the audience, add drama, and communicate the gist of your message quickly </p>
+  </ul>
+  <h4 style="font-family:raleway;"> What Kind of Tea Should You Be Drinking? </h4>
+  <ul>
+  <li style="font-family:avenir;"> Chamomile tea if you are about to go to bed, or if you are angry </li>
+  <li style="font-family:avenir;"> Green tea if you are tired, trying to lose weight, or feeling sick </li>
+  <li style="font-family:avenir;"> Chai tea if you are feeling sluggish or you have a stomach ache </li>
+  <li style="font-family:avenir;"> Oolong tea if you're burning fat or breaking out </li>
+  <li style="font-family:avenir;"> Peppermint tea if you are prone to headaches or just sore </li>
   </ul>
 </div>
 
@@ -416,11 +433,11 @@ function showSlides() {
   <h4 style="font-family:raleway;"> 10 Things to Help You With Studying </h4>
   <ul>
   <li style="font-family:avenir;">Good Lighting Can Increase Your Productivity </li>
-  <p style="font-family:avenir;"> An overhead light might not be anough - consider a desk or floor lamp with direct light </p>
+  <p style="font-family:avenir;"> An overhead light might not be enough - consider a desk or floor lamp with direct light </p>
   <li style="font-family:avenir;"> Get Enough Sleep </li>
   <p style="font-family:avenir;"> Especially the night before your exam. Have regular short breaks every 50-90 minutes to help you focus better </p>
   <li style="font-family:avenir;"> Start Studying Early </li>
-  <p style="font-family:avenir;"> Plan you study time in advance. Use a calendar and write down what you're planning to do each day </p>
+  <p style="font-family:avenir;"> Plan your study time in advance. Use a calendar and write down what you're planning to do each day </p>
   <li style="font-family:avenir;"> Use a Color Code to Break Down Your Topics </li>
   <p style="font-family:avenir;"> Use markers and post-it notes to group relevant information together. It will help you memorize everything faster </p>
   <li style="font-family:avenir;"> Eat Healthy Food That Fuels Your Brain </li>
@@ -428,7 +445,7 @@ function showSlides() {
   <li style="font-family:avenir;"> Avoid Any Distraction </li>
   <p style="font-family:avenir;"> Turn off your phone and the television, and check your social media updates only during the break time </p>
   <li style="font-family:avenir;"> Use Mind Maps </li>
-  <p style="font-family:avenir;"> Use min dmaps to visualize your topics better, improve your memory and prioritize information </p>
+  <p style="font-family:avenir;"> Use mind maps to visualize your topics better, improve your memory and prioritize information </p>
   <li style="font-family:avenir;"> Take Breaks During High Intensity Study Periods </li>
   <p style="font-family:avenir;"> During high intensity study periods it is recommended to take breaks to exercise. It will make you feel more energized and refreshed </p>
   <li style="font-family:avenir;"> Music During Studying Can Help Be Productive </li>
@@ -748,6 +765,243 @@ function showSlides() {
    <li style="font-family:avenir;"> unplugthetv.com - an alternative to TV binges </li>
    <li style="font-family:avenir;"> theskimm.com - daily email with the latest news </li>
    </ul>
+   <h4 style="font-family:raleway;color:pink;"> Everything You Need for College is Here! </h4>
+   <ul>
+   <p style="color:lightBlue;font-family:avenir;"> Study Tools </p>
+   <li style="font-family:avenir;"> StuDocu.com </li>
+   <li style="font-family:avenir;"> JoesGoals.com </li>
+   <li style="font-family:avenir;"> Pomodoro </li>
+   <li style="font-family:avenir;"> KeepMeOut.com </li>
+   <li style="font-family:avenir;"> Fltvo.biz </li>
+   <li style="font-family:avenir;"> OpenStudy.com </li>
+   <li style="font-family:avenir;"> Cheatography.com </li>
+   <li style="font-family:avenir;"> Study Skills Online </li>
+   <li style="font-family:avenir;"> MarinaraTimer.com </li>
+   <li style="font-family:avenir;"> GoConqr.com </li>
+   <li style="font-family:avenir;"> Memorize </li>
+   <li style="font-family:avenir;"> Study Guides and Strategies </li>
+   <p style="color:lightBlue;font-family:avenir;"> Class Tools </p>
+   <li style="font-family:avenir;"> Memrise.com </li>
+   <li style="font-family:avenir;"> Audible.com </li>
+   <li style="font-family:avenir;"> RateMyProfessor.com </li>
+   <li style="font-family:avenir;"> Koofers.com </li>
+   <li style="font-family:avenir;"> 10MinuteMail.com </li>
+   <li style="font-family:avenir;"> Habitica.com </li>
+   <li style="font-family:avenir;"> Prezi.com </li>
+   <li style="font-family:avenir;"> Alertful.com </li>
+   <li style="font-family:avenir;"> Typing.com </li>
+   <li style="font-family:avenir;"> PrintWhatYouLike.com </li>
+   <li style="font-family:avenir;"> Spreeder.com </li>
+   <li style="font-family:avenir;"> PicMonkey.com </li>
+   <li style="font-family:avenir;"> LovelyCharts.com </li>
+   <p style="color:lightBlue;font-family:avenir;"> Notes and Words Editors </p>
+   <li style="font-family:avenir;"> Evernote.com </li>
+   <li style="font-family:avenir;"> Google Docs </li>
+   <li style="font-family:avenir;"> ZenPen.io </li>
+   <li style="font-family:avenir;"> TalkTyper.com </li>
+   <p style="color:lightBlue;font-family:avenir;"> Writing </p>
+   <li style="font-family:avenir;"> AResearchGuide.com </li>
+   <li style="font-family:avenir;"> Harvard Writing Center </li>
+   <li style="font-family:avenir;"> Purdue's Online Writing Lab </li>
+   <li style="font-family:avenir;"> Wridea.com </li>
+   <li style="font-family:avenir;"> EssayTyper.comn </li>
+   <li style="font-family:avenir;"> 750words.com </li>
+   <li style="font-family:avenir;"> Readable.io </li>
+   <li style="font-family:avenir;"> IwriteLike </li>
+   <li style="font-family:avenir;"> HemingwayApp.com </li>
+   <li style="font-family:avenir;"> EssayPunch.com </li>
+   <li style="font-family:avenir;"> Plagtracker.com </li>
+   <li style="font-family:avenir;"> WrittenKitten.co </li>
+   <p style="color:lightBlue;font-family:avenir;"> Research </p>
+   <li style="font-family:avenir;"> Google Scholar </li>
+   <li style="font-family:avenir;"> Internet Public Library </li>
+   <li style="font-family:avenir;"> Quetext.com </li>
+   <li style="font-family:avenir;"> Library of Congress </li>
+   <li style="font-family:avenir;"> Scribd.com </li>
+   <li style="font-family:avenir;"> Bartleby.com </li>
+   <li style="font-family:avenir;"> RefSeek.com </li>
+   <li style="font-family:avenir;"> Mendeley.com </li>
+   <li style="font-family:avenir;"> Scholarpedia.com </li>
+   <li style="font-family:avenir;"> RefDesk.com </li>
+   <li style="font-family:avenir;"> InstaGrok.com </li>
+   <li style="font-family:avenir;"> American Fact Finder </li>
+   <li style="font-family:avenir;"> Reference.com </li> 
+   <p style="color:lightBlue;font-family:avenir;"> Calculators </p>
+   <li style="font-family:avenir;"> Desmos.com </li>
+   <li style="font-family:avenir;"> ThinkCalculator.com </li>
+   <li style="font-family:avenir;"> WolframAlpha.com </li>
+   <p style="color:lightBlue;font-family:avenir;"> Online Learning </p>
+   <li style="font-family:avenir;"> Instructables.com </li>
+   <li style="font-family:avenir;"> WikiHow.com </li>
+   <li style="font-family:avenir;"> KhanAcademy.org </li>
+   <li style="font-family:avenir;"> Coursera.org </li>
+   <li style="font-family:avenir;"> W3Schools.com </li>
+   <li style="font-family:avenir;"> EdTed.com </li>
+   <li style="font-family:avenir;"> CodeAcademy.com </li>
+   <li style="font-family:avenir;"> OpenCulture.com </li>
+   <li style="font-family:avenir;"> Open Yale Courses </li>
+   <li style="font-family:avenir;"> Edx.org </li>
+   <li style="font-family:avenir;"> Saylor.org </li>
+   <li style="font-family:avenir;"> MIT Open Courseware </li>
+   <li style="font-family:avenir;"> Open University </li>
+   <li style="font-family:avenir;"> AcademicEarth.org </li>
+   <li style="font-family:avenir;"> iTunesU Free Courses </li>
+   <li style="font-family:avenir;"> Lynda.com </li>
+   <p style="color:lightBlue;font-family:avenir;"> Health and Fitness </p>
+   <li style="font-family:avenir;"> FitnessBlender.com </li>
+   <li style="font-family:avenir;"> StudentRecipes.com </li>
+   <li style="font-family:avenir;"> FitnessPal.com </li>
+   <li style="font-family:avenir;"> Sleepyti.me </li>
+   <li style="font-family:avenir;"> MyFridgeFood.com </li>
+   <li style="font-family:avenir;"> EatThisMuch.com </li>
+   <li style="font-family:avenir;"> GrubHub.com </li>
+   <li style="font-family:avenir;"> PayPizzaPal.com </li>
+   <p style ="color:lightBlue;font-family:avenir;"> Financial Matters </p>
+   <li style="font-family:avenir;"> CampusShift.com </li>
+   <li style="font-family:avenir;"> StudentBeans.com </li>
+   <li style="font-family:avenir;"> MyUniDays.com </li>
+   <li style="font-family:avenir;"> SaveTheStudent.com </li>
+   <li style="font-family:avenir;"> Simple.com </li> 
+   <p style="color:lightBlue;font-family:avenir;"> Social Networking </p>
+   <li style="font-family:avenir;"> CampusBug.com </li>
+   <li style="font-family:avenir;"> Stunited.com </li>
+   <li style="font-family:avenir;"> Twitter.com </li>
+   <li style="font-family:avenir;"> Linkedin.com </li>
+   <li style="font-family:avenir;"> Google Groups </li>
+   <li style="font-family:avenir;"> Reddit/r/College </li>
+   <li style="font-family:avenir;"> TheGradCafe.com </li>
+   <p style="color:lightBlue;font-family:avenir;"> Study Abroad </p>
+   <li style="font-family:avenir;"> StudyAbroad101.com </li>
+   <li style="font-family:avenir;"> GoAbroad.com </li>
+   <li style="font-family:avenir;"> RateMyStudyAbroad.com </li>
+   <p style="color:lightBlue;font-family:avenir;"> FlashCards </p>
+   <li style="font-family:avenir;"> Quizlet.com </li>
+   <li style="font-family:avenir;"> StudyBlue.com </li>
+   <li style="font-family:avenir;"> StudyStack.com </li>
+   <li style="font-family:avenir;"> Cram.com </li>
+   <li style="font-family:avenir;"> AnkiWeb.net </li>
+   <p style="color:lightBlue;font-family:avenir;"> Grammar </p>
+   <li style="font-family:avenir;"> Grammarly.com </li>
+   <li style="font-family:avenir;"> GrammarBook.com </li>
+   <li style="font-family:avenir;"> DailyWritingTips.com </li>
+   <li style="font-family:avenir;"> GrammarGirl </li>
+   <p style="color:lightBlue;font-family:avenir;"> Dictionaries </p>
+   <li style="font-family:avenir;"> TheSaurus.com </li>
+   <li style="font-family:avenir;"> Merrian-Webster.com </li>
+   <li style="font-family:avenir;"> Words-To-Use.com </li>
+   <li style="font-family:avenir;"> OneLook.com </li>
+   <li style="font-family:avenir;"> Vocabulary.com </li>
+   <li style="font-family:avenir;"> TheFreeDictionary-Idioms </li>
+   <p style="color:lightBlue;font-family:avenir;"> Text Books </p>
+   <li style="font-family:avenir;"> BookBon.com </li>
+   <li style="font-family:avenir;"> FullBooks.com </li>
+   <li style="font-family:avenir;"> Questiacom </li>
+   <li style="font-family:avenir;"> The Online Books Page </li>
+   <li style="font-family:avenir;"> BookRenter.com </li>
+   <li style="font-family:avenir;"> Chegg.com </li>
+   <li style="font-family:avenir;"> Overdrive.com </li>
+   <li style="font-family:avenir;"> Gutenberg.cin </li>
+   <p style="color:lightBlue;font-family:avenir;"> HomeWork Help </p>
+   <li style="font-family:avenir;"> MathWay.com </li>
+   <li style="font-family:avenir;"> Duolingo.com </li>
+   <li style="font-family:avenir;"> Online Conversion.com </li>
+   <li style="font-family:avenir;"> CuriousMath.com </li>
+   <li style="font-family:avenir;"> Mathematics Articles </li>
+   <li style="font-family:avenir;"> Common Math Errors </li>
+   <li style="font-family:avenir;"> StackExchange.com </li>
+   <li style="font-family:avenir;"> Reddit.com </li>
+   <li style="font-family:avenir;"> HomeWork Help Today </li>
+   <li style="font-family:avenir;"> SparkNotes.com </li>
+   <p style="color:lightBlue;font-family:avenir;"> Citations </p>
+   <li style="font-family:avenir;"> CitationMachine.net </li>
+   <li style="font-family:avenir;"> CiteULike.org </li>
+   <li style="font-family:avenir;"> Bibme.org </li>
+   <li style="font-family:avenir;"> EasyBib.com </li>
+   <li style="font-family:avenir;"> Cite This for Me.com </li>
+   <li style="font-family:avenir;"> Refme.com </li>
+   <p style="font-family:avenir;"> Storage </p>
+   <li style="font-family:avenir;"> DropBox.com </li>
+   <li style="font-family:avenir;"> SugarSync.com </li>
+   <li style="font-family:avenir;"> WeTransfer.com </li>
+   <p style="font-family:avenir;"> Organization </p>
+   <li style="font-family:avenir;"> Google Calendar </li>
+   <li style="font-family:avenir;"> HiTask.com </li>
+   <li style="font-family:avenir;"> GetPocket.com </li>
+   <li style="font-family:avenir;"> ToDoist.com </li>
+   <li style="font-family:avenir;"> SchoolTraq.com </li>
+   <p style="color:lightBlue;font-family:avenir;"> Study Group </p>
+   <li style="font-family:avenir;"> OneDrive.live.com </li>
+   <li style="font-family:avenir;"> Slack.com </li>
+   <p style="color:lightBlue;font-family:avenir;"> Interships and Jobs </p>
+   <li style="font-family:avenir;"> StartUpHire.com </li>
+   <li style="font-family:avenir;"> Upwork.com </li>
+   <li style="font-family:avenir;"> Interships.com </li>
+   <li style="font-family:avenir;"> Idealist.com </li>
+   <li style="font-family:avenir;"> Mediabistro.com </li>
+   <li style="font-family:avenir;"> Indeed.com </li>
+   <li style="font-family:avenir;"> Experience.com </li>
+   <li style="font-family:avenir;"> Craigslist.com </li>
+   <li style="font-family:avenir;"> USAjobs.gov </li>
+   <li style="font-family:avenir;"> GoOverSeas.com </li>
+   <li style="font-family:avenir;"> Simplyhired.com </li>
+   <li style="font-family:avenir;"> Internships-USA.com </li>
+   <li style="font-family:avenir;"> CareerShift.com </li>
+   <li style="font-family:avenir;"> TheSCA.org </li>
+   <li style="font-family:avenir;"> InterQueen.com </li>
+   <li style="font-family:avenir;"> Glassdoor.com </li>
+   <li style="font-family:avenir;"> AmbitionBox.com </li>
+   <p style="color:lightBlue;font-family:avenir;"> College Tips </p>
+   <li style="font-family:avenir;"> BrightKnowledge.org </li>
+   <li style="font-family:avenir;"> CollegeInfoGeek.com </li>
+   <li style="font-family:avenir;"> HerCampus.com </li>
+   <li style="font-family:avenir;"> CollegeTips.com </li>
+   <li style="font-family:avenir;"> HackCollege.com </li>
+   <li style="font-family:avenir;"> CollegeBoard.com </li>
+   <li style="font-family:avenir;"> UCampus.net </li>
+   <p style="color:lightBlue;font-family:avenir;"> ScholarShips </p>
+   <li style="font-family:avenir;"> MeriAid.com </li>
+   <li style="font-family:avenir;"> FastWeb.com </li>
+   <li style="font-family:avenir;"> SallieMae.com </li>
+   <li style="font-family:avenir;"> Unigo.com </li>
+   <li style="font-family:avenir;"> ScholarshipWorkshop.com </li>
+   <li style="font-family:avenir;"> Scholarships.com </li>
+   <p style="color:lightBlue;font-family:avenir;"> Entertainment </p>
+   <li style="font-family:avenir;"> NetFlix.com </li>
+   <li style="font-family:avenir;"> BuzzFeed.com </li>
+   <li style="font-family:avenir;"> Tumblr.com </li>
+   <li style="font-family:avenir;"> Hulu.com </li>
+   <li style="font-family:avenir;"> Huffington Post College </li>
+   <li style="font-family:avenir;"> BBC.com </li>
+   <li style="font-family:avenir;"> UnPlugTheTV.com </li>
+   <li style="font-family:avenir;"> Pandora </li>
+   <li style="font-family:avenir;"> FreeRice.com </li>
+   </ul>
+   <h4 style="font-family:raleway;"> Clean Up Your Diet in 5 Weeks </h4>
+   <ul>
+   <li style="font-family:avenir;color:pink;"> Week One </li>
+   <p style="font-family:avenir;"> Add REAL fruits and vegetables to every meal </p>
+   <li style="font-family:avenir;color:pink;"> Week Two </li>
+   <p style="font-family:avenir;"> Stop eating fast food </p>
+   <li style="font-family:avenir;color:pink;"> Week Three </li> 
+   <p style="font-family:avenir;"> Give up white bread and grains. Switch to wheat bread, brown rice, and whole wheat pasta </p>
+   <li style="font-family:avenir;color:pink;"> Week Four </li>
+   <p style="font-family:avenir;"> Use a fruit or veggie at the base of every snack </p>
+   <li style="font-family:avenir;color:pink;"> Week Five </li>
+   <p style="font-family:avenir;"> Stop drinking soda and sugary drinks </p>
+   </ul>
+   <h4 style="font-family:raleway;"> Top 10 Biggest Brain Damaging Habits (According to the World Health Organization </h4>
+   <ul>
+   <li style="font-family:avenir;"> No Breakfast </li>
+   <li style="font-family:avenir;"> OverEating </li>
+   <li style="font-family:avenir;"> Smoking </li>
+   <li style="font-family:avenir;"> High Sugar Consumption </li>
+   <li style="font-family:avenir;"> Air Pollution </li>
+   <li style="font-family:avenir;"> Sleep Deprivation </li>
+   <li style="font-family:avenir;"> Head Covered While Sleeping </li>
+   <li style="font-family:avenir;"> Working Your Brain During Illness </li>
+   <li style="font-family:avenir;"> Lacking in Stimulating Thoughts </li>
+   <li style="font-family:avenir;"> Talking Rarely </li>
+   </ul>
 </div>
 
 <div style="background-color:teal;color:white;padding:20px:"id="References" class="tabcontent">
@@ -765,6 +1019,11 @@ function showSlides() {
   <li style="font-family:avenir;"> teen.com </li>
   <li style="font-family:avenir;"> blog.bufferapp.com </li>
   <li style="font-family:avenir;"> ifunny.co </li>
+  <li style="font-family:avenir;"> projectinspired.com </li>
+  <li style="font-family:avenir;"> society19.com </li>
+  <li style="font-family:avenir;"> amp.businessinsider.com </li>
+  <li style="font-family:avenir;"> gurl.com </li>
+  <li style="font-family:avenir;"> how2winscholarships.com </li>
   </ul>
 </div>
 
@@ -844,10 +1103,10 @@ html {
     <div class="card">
       <img src="http://image.ibb.co/iiGLZv/Vanesa_s_Profile_Pic.png" alt="Vanesa_s_Profile_Pic" border="0"></a><br /><a target='_blank' href='http://imgbb.com/'></a><br />
       <div class="container">
-        <h2><font color="#153631">Vanesa Marar</h2>
-        <p class="title">Co-Founder</p>
-        <p><font color="#153631">Salutations! I have a penchant for learning hence my love for every subject in existence. I am ecstatic to pursue my career as an actuary! </p>
-        <p>vanesamarar@yahoo.com</p>  
+        <h2 style="font-family:clicker script;"><font color="#153631">Vane$a Marar</h2>
+        <p style="font-family:quicksand;" class="title">Co-Founder</p>
+        <p style="font-family:quicksand;"><font color="#153631">Salutations! I have a penchant for learning hence my love for every subject in existence. I am ecstatic to pursue my career as an actuary! </p>
+        <p style="font-family:quicksand;">vanesamarar@yahoo.com</p>  
         <p><button class="button">Contact</button></p>
       </div>
     </div>
@@ -857,9 +1116,9 @@ html {
     <div class="card" >
 	   <img src="http://image.ibb.co/dfKMra/PICPICFINAL.jpg" alt="PICPICFINAL" border="0"></a><br /><a target='_blank' href='http://imgbb.com/'></a><br />
       <div class="container">
-        <h2><font color="white">Jacqueline Marchan</h2>
-        <p class="title">Co-Founder</p>
-        <p><font color="white">I am a motivated future leader that is ready to take on grueling challenges! I like doing outdoor activites and learn from experiences.</p>
+        <h2 style="font-family:clicker script;"><font color="white">Jacqueline Marchan</h2>
+        <p style="font-family:quicksand;" class="title">Co-Founder</p>
+        <p style="font-family:quicksand;"><font color="white">I am a motivated future leader that is ready to take on grueling challenges! I like doing outdoor activites and learn from experiences.</p>
         <p><a href="https://www.linkedin.com/in/jacqueline-marchan-68535a145/?trk=uno-choose-ge-no-intent&dl=no"><font color="white">Jacqueline's linkedIn</a></p>
   
         <p><button class="button">Contact</button></p>
@@ -870,11 +1129,10 @@ html {
     <div class="card">
      <img src="http://image.ibb.co/j7TL1a/profile_Updated.png" alt="profile_Updated" border="0"></a><br /><a target='_blank' href='http://imgbb.com/'></a><br />
       <div class="container">
-        <h2 style="font-family:Cookie;"><font color="white
-       ">Julia Devine</h2>
-        <p class="title">Co-Founder</p>
-        <p><font color="white">A STEM fanatic and competitive dancer, Julia is always on the lookout for innovation. Julia loves longboarding around Seattle in her free time and catching up with her friends.</p>
-        <p><a href="https://www.linkedin.com/in/julia-d-21987713a"><font color="white">Julia's LinkedIn</a></p>
+        <h2 style="font-family:clicker script;"><font color="white">Julia Devine</h2>
+        <p style="font-family:quicksand;" class="title">Co-Founder</p>
+        <p style="font-family:quicksand;"><font color="white">A STEM fanatic and competitive dancer, Julia is always on the lookout for innovation. Julia loves longboarding around Seattle in her free time and catching up with her friends.</p>
+        <p style="font-family:quicksand;"><a href="https://www.linkedin.com/in/julia-d-21987713a"><font color="white">Julia's LinkedIn</a></p>
         <p><button class="button">Contact</button></p>
       </div>
     </div>
