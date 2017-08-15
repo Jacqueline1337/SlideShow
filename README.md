@@ -433,7 +433,7 @@ function showSlides() {
   <h4 style="font-family:raleway;"> 10 Things to Help You With Studying </h4>
   <ul>
   <li style="font-family:avenir;">Good Lighting Can Increase Your Productivity </li>
-  <p style="font-family:avenir;"> An overhead light might not be enough - consider a desk or floor lamp with direct light </p>
+  <p style="font-family:avenir;"> An overhead light might not be anough - consider a desk or floor lamp with direct light </p>
   <li style="font-family:avenir;"> Get Enough Sleep </li>
   <p style="font-family:avenir;"> Especially the night before your exam. Have regular short breaks every 50-90 minutes to help you focus better </p>
   <li style="font-family:avenir;"> Start Studying Early </li>
@@ -499,7 +499,7 @@ function showSlides() {
   <li style="font-family:avenir;"> US Bank Scholarship - $1000</li>
   <p style="font-family:avenir;"> It is for high school seniors and undergraduate students. 40 are given out per year. Applications only require basic information and are drawn at random </p> 
   <li style="font-family:avenir;"> Niche "No Essay" Scholarship - $2000</li>
-  <p style="font-family:avenir;"> For incoming or current college students. It is drawn once a month. Applications are simple and you can apply every month </p>
+  <p style="font-family:avenir;"> For incoming or current college students. It is drawn once a month. Applications are simple and you can apply every month.</p>
   <li style="font-family:avenir;"> Zinch.com Weekly Scholarship - $1000 </li>
   <p style="font-family:avenir;"> For high schoolers and college students. It is drawn weekly. The applications involves basic information and a very short essay answer to a weekly-changing question </p>
   <li style="font-family:avenir;"> Scholarship Zone Scholarship - $1000 </li>
@@ -1032,7 +1032,7 @@ function showSlides() {
    <span onclick="this.parentElement.style.display='none'" class="topright">x</span>
     <h3 style="font-family:graduate;"> The Creators</h3>
    <p style="font-family:avenir;"> Here is a little synopsis of each of the authors of this website.</p>
-   </div>
+   
 
 
 <head>
@@ -1119,7 +1119,7 @@ html {
         <h2 style="font-family:clicker script;"><font color="white">Jacqueline Marchan</h2>
         <p style="font-family:quicksand;" class="title">Co-Founder</p>
         <p style="font-family:quicksand;"><font color="white">I am a motivated future leader that is ready to take on grueling challenges! I like doing outdoor activites and learn from experiences.</p>
-        <p><a href="https://www.linkedin.com/in/jacqueline-marchan-68535a145/?trk=uno-choose-ge-no-intent&dl=no"><font color="white">Jacqueline's linkedIn</a></p>
+        <p style="font-family:quicksand;"><a href="https://www.linkedin.com/in/jacqueline-marchan-68535a145/?trk=uno-choose-ge-no-intent&dl=no"><font color="white">Jacqueline's linkedIn</a></p>
   
         <p><button class="button">Contact</button></p>
       </div>
