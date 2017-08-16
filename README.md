@@ -1,4 +1,4 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
 <head>
 <link href='https://fonts.googleapis.com/css?family=Graduate' rel='stylesheet'>
@@ -177,10 +177,9 @@ body {font-family: Verdana,sans-serif;}
 }
 </style>
 </head>
-
-
 </style>
 </head>
+
 <head>
 <style>
 div.Title {
@@ -200,13 +199,17 @@ div.Title {
 <div style="background-color:#a8dadc;
 <div class="logo" img align="middle">
 </div>
+</div>
 <div>
 <div style="background-color:#a8dadc;
 <div class="logo" img align="middle">
 <img src="http://image.ibb.co/nc92Uv/Final_Final_Logo.jpg" alt="Final_Final_Logo" border="0"></a><br /><a target='_blank' href='http://imgbb.com/'></a><br />
 </div>
+</div>
+</div>
 </body>
-<body>
+
+
 
 
 <div class="tab">
@@ -1171,7 +1174,7 @@ html {
       <div class="container">
         <h2 style="font-family:clicker script;"><font color="white">Jacqueline Marchan</h2>
         <p style="font-family:quicksand;" class="title">Co-Founder</p>
-        <p style="font-family:quicksand;"><font color="white">I am a motivated future leader that is ready to take on grueling challenges! I like doing outdoor activites and learn from experiences.</p>
+        <p style="font-family:quicksand;"><font color="white">Motivated and ready to take on grueling challenges is the type of person Jacqueline is. Enjoys outdoor activites and learn from experiences.</p>
         <p style="font-family:quicksand;"><a href="https://www.linkedin.com/in/jacqueline-marchan-68535a145/?trk=uno-choose-ge-no-intent&dl=no"><font color="white">Jacqueline's linkedIn</a></p>
   
         <p><button class="button">Contact</button></p>
@@ -1193,7 +1196,7 @@ html {
 </div>
 
 </body>
-</html>
+
 
 </div>
 
@@ -1205,7 +1208,7 @@ html {
 <p style="font-family:avenir;"><a href="http://127.0.0.1:8000/chat/"><font color="white">ChatBot Page</a></p>
 
 </div>
-</style>
+
 </body>
 
 <div style="background-color:#82B2B1;color:white;padding:20px;">
@@ -1214,7 +1217,7 @@ html {
   <p style="font-family:poiret one;">Creators: Jacqueline Marchan, Julia Devine, Vanesa Marar</p> 
 </div> 
 
-</body>
+
 
 
 <script>
